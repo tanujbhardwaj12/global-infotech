@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.carousel-control-next-icon {
+    background-color: orange;
+}
+
+.carousel-control-prev-icon {
+    background-color: orange;
+}
+
+.first-div h1 {
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: #FCFCFD;
+    width: fit-content;
+    /* margin-left: 20px; */
+}
+
+.first-div span {
+    color: blue;
+}
+
+.first-div {
+    background-image: url(Group\ 1698.png);
+    height: 500px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-div button {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border: 1px soloid grey;
+
+}
+
+/* second div csss  */
+.second-div img {
+    border-radius: 50%;
+    width: fit-content;
+    background-color: blue;
+}
+
+.second-div {
+    /* border: 2px solid blue; */
+    width: fit-content;
+    border-radius: 50%;
+}
+
+.slide-section {
+    position: relative;
+}
+
+.second-div img {
+    position: absolute;
+    border: 2px solid blue;
+
+
+
+}
+
+.second-div {
+    left: 50px;
+}
+/* step section css */
+.step-section {
+
+    /* height: 300px; */
+}
+.step-section .class-1 h2{
+transform: rotate(270deg);
+margin-top: 30px;
+background-color: #000;
+color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: x-large;
+width: 153px;
+}
+/* Destination-section  */
+.Destination-section {
+    background: #F1F4FF;
+    margin-top: 10rem;
+   
+
+}
+
+.Destination-section .img-div img {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.Destination-section .Destination-p {
+    text-align: center;
+}
+
+.Destination-p h2 {
+    font-weight: 500;
+}
+
+.img-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-div p {
+    text-align: center;
+}
+
+.img-div .images {
+    background-color: white;
+    border-radius: 10%;
+    border: none;
+}
+
+/* global-infotech-section css */
+
+
+.global-infotech-section{
+    margin-top: 10rem;
+}
+.second-3-div{
+    display: flex;
+    justify-content: space-between;
+}
+.third-3-div{
+    display: flex;
+    justify-content: space-between;
+}
+.last-div{
+    text-align: center;
+}
+.cardssss{
+    display: flex;
+}
+
+
+.cardssss .col-md-4 {
+    background-color: blue;
+}
+
+
+.course-section {
+    background: #F8F8F8;
+    height: 600px;
+}
+
+.course-div-1 {
+    position: relative;
+
+}
+
+.course-section img {
+    width: 300px;
+}
+
+.course-div-1 .img-2 {
+    position: absolute;
+    left: 245px;
+    top: 110px;
+
+}
+
+.course-section .course-div-2 button {
+    background: #FFFFFF;
+    border: 1px solid grey;
+    padding: 10px;
+
+}
+
+.course-div-2 button:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+.items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+/* feedback section  */
+.your-slider{
+    width: 97%;
+    height: 400px;
+    /* background-color: #F1F4FF; */
+} 
+.slick-slide {
+    text-align: center;
+    color: #fff;
+    /* background: #000; */
+    padding: 40px 20px;
+
+}
+.feedback-section{
+    margin-top: 40px;
+}
+.feedback-p  h4{
+border: none;
+background: #FCFCFD;
+padding: 5px;
+width: fit-content;
+margin: auto;
+margin-bottom: 20px;
+border: 1px solid ;
+border-radius: 10px;
+}
+.feedback-p h2{
+    text-align:center ;
+}
+.feedback-p img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
