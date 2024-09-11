@@ -69,26 +69,29 @@
 .second-div {
     left: 50px;
 }
+
 /* step section css */
 .step-section {
 
     /* height: 300px; */
 }
-.step-section .class-1 h2{
-transform: rotate(270deg);
-margin-top: 30px;
-background-color: #000;
-color: white;
-padding-top: 10px;
-padding-bottom: 10px;
-font-size: x-large;
-width: 153px;
+
+.step-section .class-1 h2 {
+    transform: rotate(270deg);
+    margin-top: 30px;
+    background-color: #000;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: x-large;
+    width: 153px;
 }
+
 /* Destination-section  */
 .Destination-section {
     background: #F1F4FF;
     margin-top: 10rem;
-   
+
 
 }
 
@@ -123,21 +126,25 @@ width: 153px;
 /* global-infotech-section css */
 
 
-.global-infotech-section{
+.global-infotech-section {
     margin-top: 10rem;
 }
-.second-3-div{
+
+.second-3-div {
     display: flex;
     justify-content: space-between;
 }
-.third-3-div{
+
+.third-3-div {
     display: flex;
     justify-content: space-between;
 }
-.last-div{
+
+.last-div {
     text-align: center;
 }
-.cardssss{
+
+.cardssss {
     display: flex;
 }
 
@@ -186,12 +193,14 @@ width: 153px;
     margin: 0px auto;
     margin-top: 100px;
 }
+
 /* feedback section  */
-.your-slider{
+.your-slider {
     width: 97%;
     height: 400px;
     /* background-color: #F1F4FF; */
-} 
+}
+
 .slick-slide {
     text-align: center;
     color: #fff;
@@ -199,25 +208,113 @@ width: 153px;
     padding: 40px 20px;
 
 }
-.feedback-section{
+
+.feedback-section {
     margin-top: 40px;
 }
-.feedback-p  h4{
-border: none;
-background: #FCFCFD;
-padding: 5px;
-width: fit-content;
-margin: auto;
-margin-bottom: 20px;
-border: 1px solid ;
-border-radius: 10px;
+
+.feedback-p h4 {
+    border: none;
+    background: #FCFCFD;
+    padding: 5px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-radius: 10px;
 }
-.feedback-p h2{
-    text-align:center ;
+
+.feedback-p h2 {
+    text-align: center;
 }
-.feedback-p img{
+
+.feedback-p img {
     width: 30px;
     height: 30px;
     margin-right: 10px;
     margin-bottom: 2px;
+}
+
+/* contact section  */
+
+.contact-section {
+    background-image: url(/assets/images/Group\ 1700.png);
+}
+
+.form1,
+.form2,
+.form3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.message-button {
+
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.message-button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.contact-section-1 {
+    position: relative;
+}
+
+.contact-img-2 {
+    position: relative;
+    top: 89px;
+    right: 56px;
+}
+ /* Ceo section   */
+ .Ceo-div-1 h3{
+    color: blue;
+ }
+
+.Ceo-div-2{
+background-color: url(/assets/images/Rectangle\ 5318.png);
+width: 400px;
+height: 200px;
+}
+.Ceo-div-2 img{
+    width: 200px;
+    height: 100px;
 }
