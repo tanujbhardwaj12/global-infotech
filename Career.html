@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/images/Group 2.png" alt="Brand Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Partnership</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <button class="btn btn-outline-success" type="submit">Contact us</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- carrer section  -->
+
+    <div class="container mt-5">
+        <div class="row build-career">
+            <div class="col-lg-12">
+                <h2>Build Your Career With Us</h2>
+                <p>Globel InfoTech is a revolutionary application platform designed for Student Service Partners
+                    providing international education support. It enables partners to create multiple applications and
+                    oversee the admission journey for their students in the chosen study abroad destination.</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="hiring-section mt-5">
+        <div class="container">
+            <h2>Join Now Open For Hiring</h2>
+            <p>Joining our team means being part of a company that values your skills and contributions.</p>
+        </div>
+
+        <div class="hiring mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 hiring-div my-5">
+
+
+                        <div class="hiring-div-1">
+                            <div class="div-2">
+                                <img src="assets/images/icon.png" alt="">
+                                <p>Hr Excutive</p>
+                            </div>
+                        </div>
+                        <div class="hiring-div-1">
+                            <div class="div-2">
+                                <img src="assets/images/icon.png" alt="">
+                                <p>Team Leader</p>
+                            </div>
+                        </div>
+                        <div class="hiring-div-1">
+                            <div class="div-3">
+                                <img src="assets/images/icon.png" alt="">
+                                <p>Work From <br> Home (Tele <br> Caller)</p>
+                            </div>
+                        </div>
+                        <div class="hiring-div-1">
+                            <div class="div-4">
+                                <img src="assets/images/icon.png" alt="">
+                                <p>Sales and <br> Marketing</p>
+                            </div>
+                        </div>
+                        <div class="hiring-div-1">
+                            <div class="div-5">
+                                <img src="assets/images/icon.png" alt="">
+                                <p>Business <br> Associates</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- carrer section end  -->
+
+    <!-- form to join us  -->
+    <div class="container mt-5">
+        <div class="row join-section">
+            <div class="col-lg-6 join-div-1">
+                <h2>Fill this form to join us</h2>
+                <p>Globel InfoTech is a revolutionary application platform designed for Student Service Partners
+                    providing international education support. It enables partners to create multiple applications and
+                    oversee the admission journey for their students in the chosen study abroad destination.</p>
+                <img src="assets/images/Group 7317.png" alt="">
+            </div>
+
+            <div class="col-lg-6">
+                <form id="contactForm" action="submit_form.php" method="post"></form>
+                <div class="form1">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" placeholder="Enter First Name" name="firstName" required>
+                        <small class="error-message" id="firstNameError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" placeholder="Last Name" name="lastName" required>
+                        <small class="error-message" id="lastNameError"></small>
+                    </div>
+                </div>
+                <div class="form2">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Email" name="email" required>
+                        <small class="error-message" id="emailError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" placeholder="Enter Phone Number" name="phone">
+                    </div>
+                </div>
+                <div class="form3">
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Enter your Subject " name="subject" required>
+                        <small class="error-message" id="subjectError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" id="city" placeholder="Select Your City" name="city" required>
+                        <small class="error-message" id="cityError"></small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Enter your Message here..." rows="4"
+                        required></textarea>
+                    <small class="error-message" id="messageError"></small>
+                </div>
+
+                <button type="submit" class="message-button">Send Message</button>
+                </form>
+            </div>
+        </div> <!-- row end -->
+    </div> <!-- container end  -->
+
+
+    <!-- form to join us end  -->
+
+    <!-- footer section  -->
+ <section>
+    <div class="container-fluid mt-5">
+        <div class="row footer-section">
+            <div class="col-lg-3 mt-5">
+                <img src="assets/images/Group 2.png" alt="">
+                <p class="mt-3"><i class="fa-solid fa-envelope"></i> <a href="mailto:info@example.com"
+                        class="footer-contact-link">hello@globalinfotech</a></p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:+1234567890" class="footer-contact-link">+91
+                        9387411065</a></p>
+                <p><i class="fa-solid fa-location-dot"></i> Global Info Tech, Word no-8 Dr.Zakir Husain
+                    road,Dhubri,Assam-783301,India</p>
+            </div>
+            <div class="col-lg-3 footer-last-div mt-5">
+                <h3>Home</h3>
+                <div>
+                        <li type="none">Our Partner Institutes</li>
+                        <li type="none">Our Courses</li>
+                        <li type="none">Testimonials</li>
+                        <li type="none">FAQ</li>
+                </div>
+            </div>
+            <div class="col-lg-3 footer-last-div mt-5">
+                <h3>About us </h3>
+                <div>
+                    <li type="none">company</li>
+                    <li type="none">Achievements</li>
+                    <li type="none">our Goals</li>
+                </div>
+            </div>
+            <div class="col-lg-3 footer-last-div mt-5">
+                <h3>Social Profiles</h3>
+                <div class="Social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="footer-end ">
+    <p>© 2024 Global Infotech. All rights reserved</p>
+</div>
+<!-- footer section end  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>

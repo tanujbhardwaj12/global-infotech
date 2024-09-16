@@ -1,6 +1,4 @@
 
-
-
 $(document).ready(function(){
     $('.your-slider').slick({
         dots: true,          // Show dots for navigation
@@ -13,3 +11,15 @@ $(document).ready(function(){
         autoplaySpeed: 2000  // Autoplay speed in milliseconds
     });
 });
+
+
+let element;
+
+element = document.getElementById("icon-javascript").addEventListener("click",abc);
+
+function abc(){
+  document.getElementById("icon-javascript").classList.toggle("xyz");
+  let a = document.getElementById("icon-javascript").classList;
+  console.log(a);
+  
+}

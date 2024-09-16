@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+.slide-div-1 h1 span {
+    color: blue;
+}
+
+.slide-div-1 h1 {
+    border: 1px solid grey;
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+}
+
+.slide-div-1 button {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+
 .carousel-control-next-icon {
     background-color: orange;
 }
@@ -11,6 +31,72 @@
 .carousel-control-prev-icon {
     background-color: orange;
 }
+
+.slide-div-2 {
+    border: 2px solid blue;
+    /* width: fit-content; */
+    width: 30%;
+    height: 400px;
+    border-radius: 50%;
+
+    /* position: relative; */
+}
+
+.slide-1,
+.slide-2,
+.slide-3 {
+    height: 500px;
+    background-color: lightgrey;
+}
+
+.slide-2-div-2 .slide-2-div-2-img-1 {
+    height: 200px;
+}
+
+.slide-div-2 img {
+    width: 360px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    right: 365px;
+    top: 58px;
+}
+
+@media screen and (max-width:950px) {
+
+    .slide-1,
+    .slide-2,
+    .slide-3 {
+        height: 1000px;
+    }
+
+    /* .slide-div-3 img{
+        width: 100px;
+    } */
+}
+
+/* slide-2 css  */
+.slide-2-div-2 img {
+    transform: rotate(360deg);
+
+}
+
+.slide-div-3 img {
+    width: 300px;
+}
+
+.slide-div-3 {
+    position: relative;
+}
+
+.slide-div-3 .img-2 {
+    position: absolute;
+    right: -60px;
+    top: 99px;
+}
+
+/* slide end  */
+
 
 .first-div h1 {
     border: 1px solid grey;
@@ -87,11 +173,11 @@
     width: 153px;
 }
 
+
 /* Destination-section  */
 .Destination-section {
     background: #F1F4FF;
     margin-top: 10rem;
-
 
 }
 
@@ -123,36 +209,68 @@
     border: none;
 }
 
+@media screen and (max-width:1000px) {
+    .img-div {
+        display: block;
+        /* justify-content: space-around; */
+    }
+
+    .img-div .images {
+        background-color: white;
+        border-radius: 0;
+    }
+
+    .img-div p {
+        text-align: start;
+        margin-left: 50px;
+    }
+
+    .course-section img {
+        width: 100px;
+    }
+
+    .course-div-1 img {
+        width: 100px;
+    }
+}
+
 /* global-infotech-section css */
 
+
+.card-section-1 {
+    display: flex;
+
+}
+
+.card-section-1 .cards {
+    background: #FBFBFB;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.global-div-1 {
+    text-align: center;
+}
 
 .global-infotech-section {
     margin-top: 10rem;
 }
 
-.second-3-div {
-    display: flex;
-    justify-content: space-between;
-}
-
-.third-3-div {
-    display: flex;
-    justify-content: space-between;
-}
-
 .last-div {
-    text-align: center;
+    background: #FBFBFB;
+    margin-top: 50px;
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+    /* text-align: center; */
 }
 
-.cardssss {
-    display: flex;
+/* course section  */
+@media screen and (max-width: 700px) {
+    .course-section img {
+        width: 200px;
+    }
 }
-
-
-.cardssss .col-md-4 {
-    background-color: blue;
-}
-
 
 .course-section {
     background: #F8F8F8;
@@ -187,6 +305,11 @@
     color: white;
 }
 
+.ankers {
+    height: 200px;
+    width: 100px;
+    background-color: aqua;
+}
 
 .items {
     width: 90%;
@@ -194,9 +317,10 @@
     margin-top: 100px;
 }
 
+
 /* feedback section  */
-.your-slider {
-    width: 97%;
+.slider-class.your-slider {
+    width: 100%;
     height: 400px;
     /* background-color: #F1F4FF; */
 }
@@ -304,17 +428,670 @@ textarea {
     top: 89px;
     right: 56px;
 }
- /* Ceo section   */
- .Ceo-div-1 h3{
-    color: blue;
- }
 
-.Ceo-div-2{
-background-color: url(/assets/images/Rectangle\ 5318.png);
-width: 400px;
-height: 200px;
+/* Ceo section   */
+.Ceo-div-1 h3 {
+    color: blue;
 }
-.Ceo-div-2 img{
-    width: 200px;
-    height: 100px;
+
+.Ceo-div-2 {
+    position: relative;
 }
+
+.Ceo-div-2 .Ceo-img-1 {
+    width: 500px;
+    height: 380px;
+}
+
+.Ceo-div-2 .Ceo-img-2 {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    right: 150px;
+    top: 37px;
+}
+
+/* question section  */
+.abc {
+    background-color: darkblue;
+}
+
+.xyz {
+    background-color: cadetblue;
+    display: block;
+}
+
+.questions-section {
+    background: #F8F8F8;
+
+}
+
+.questions-div-1 .javascript-div {
+    /* background-color: white; */
+    padding: 10px;
+}
+
+.javascript-div-1 {
+    border-bottom: 1px solid grey;
+
+}
+.questions-div-1{
+    height: 300px;
+    background-color: white;
+}
+
+.javascript-div-1 i {
+    background: #ECF0FF;
+    padding: 20px;
+}
+
+.javascript-div-2 {
+    /* opacity: 0; */
+    /* display: none; */
+}
+
+/* boot css  */
+.bootstrap-div-1{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 20px;
+}
+#collapseExample{
+    background-color: white;
+}
+.first-btn {
+    background-color: white;
+}
+
+.first-collapse {
+    display: flex;
+}
+
+.collapse-div-2 {
+    background: #F8F8F8;
+    padding: 10px;
+}
+
+.javascript-div-2 p {
+    background: #F8F8F8;
+    padding: 30px;
+
+}
+
+.javascript-div-2 p i {
+    margin-left: 30px;
+}
+
+/* footer section  */
+.footer-section {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+.footer-section div a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.footer-section div .Social i {
+    margin-left: 30px;
+}
+
+.footer-section div .Social {
+    display: flex;
+}
+
+.footer-end {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^career file ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.build-career .col-lg-12 h2 {
+    text-align: center;
+}
+
+.hiring-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hiring-section {
+    background: url("/assets/images/Rectangle\ 532\ \(1\).png");
+    background-size: cover;
+
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.hiring-section .container {
+    text-align: center;
+}
+
+.hiring-section .hiring .hiring-div-1 {
+    display: flex;
+}
+
+.hiring-div-1 div {
+    background-color: white;
+    display: flex;
+
+}
+
+.hiring .hiring-div-1 p {
+    margin-bottom: 0;
+    /* margin-top: 25px; */
+    margin-right: 20px;
+}
+
+.hiring .hiring-div-1 img {
+    width: 100px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.hiring-div-1 div {
+    border: 1px solid grey;
+    border-radius: 24px;
+    height: 90px;
+    margin-left: 20px;
+}
+
+.hiring-div-1 .div-2 p {
+    margin-top: 25px;
+}
+
+.hiring-div-1 .div-3 p {
+    margin-top: 15px;
+    font-size: 14px;
+
+}
+
+.hiring-div-1 .div-4 p {
+    margin-top: 14px;
+}
+
+.hiring-div-1 .div-5 p {
+    margin-top: 14px;
+}
+
+/* join us  */
+.join-div-1 {
+    border-right: 1px solid grey;
+}
+
+.join-div-1 img {
+    width: 400px;
+    height: 250px;
+}
+
+
+
+@media screen and (max-width: 990px) {
+
+
+    .hiring-div {
+        flex-direction: column;
+        /* justify-content: center; */
+
+    }
+
+    .hiring-section .hiring .hiring-div-1 {
+        justify-content: center;
+
+    }
+
+    .hiring-div-1 div {
+        width: 200px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+
+    .join-div-1 img {
+        width: 300px;
+        height: 200px;
+    }
+
+}
+
+/* partnership-section  */
+.our-1 h1 {
+    width: fit-content;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+.our-1 h1 span {
+    color: blue;
+}
+
+.partnership-section .partnership-1 div {
+    margin-left: 30px;
+    background: #FBFBFB;
+    margin-top: 30px;
+}
+
+.partnership-1 {
+    display: flex;
+}
+
+.partnership-1 div {
+    border-radius: 11px;
+    padding: 10px;
+}
+
+.our-2 {
+    position: relative;
+}
+
+.our-2 .img-2 {
+    position: sticky;
+    position: absolute;
+    top: 128px;
+    right: -10px;
+}
+
+.last-div-1 {
+    width: 300px;
+}
+
+.Institute-1 h2 {
+    font-size: 2.2rem;
+}
+
+.Institute-1 p {
+    font-size: 1.5rem;
+}
+
+.Institute-1 {
+    background-color: blue;
+    color: white;
+
+}
+
+.Institute-1 h2 {
+    margin-top: 5rem;
+}
+
+.Institute-1 p {
+    margin-top: 20px;
+}
+
+.Institute-2 {
+    background: #E9F0F4;
+
+}
+
+.company-div div .image-1 {
+    margin-left: 9px;
+}
+
+.Institute-2 div .image-1 {
+    margin-left: 9px;
+}
+
+.company-div img {}
+
+.company-div {
+    background: #E9F0F4;
+
+}
+
+.usa-div {
+    background-color: #000;
+    color: white;
+}
+
+.usa-div h2 {
+    margin-top: 5rem;
+}
+
+.usa-div p {
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:900px) {
+    .partnership-1 {
+        display: block;
+    }
+
+    .last-div-1 {
+        width: 270px;
+    }
+
+    .our-2 img {
+        width: 300px;
+    }
+
+
+}
+
+
+
+/* contact us section  css */
+.contact-us-main h2 {
+    font-size: 2.3rem;
+}
+
+.contact-us-main p {
+    font-size: 1.4rem;
+    max-width: 600px;
+}
+
+.contact-us-main-div-2 {
+    position: relative;
+}
+
+.contact-us-main-div-2-img-2 {
+    position: absolute;
+    top: 98px;
+    right: 109px;
+
+}
+
+.contact-us-section {
+    border-top: 1px solid grey;
+    margin-top: 12rem;
+}
+
+.contact-us-main img {
+    width: 300px;
+    height: 300px;
+}
+
+.contact-us-social div {
+    background-color: #F1F1F3;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.contact-us-social div i {
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-us-social div span i {
+    margin-left: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .footer-section div h3 {
+        margin-left: 0;
+    }
+
+    .footer-section ul li {
+        margin-left: 1px;
+    }
+
+    .footer-section div .Social i {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/* about us css  */
+.about-div-2 img {
+    width: 300px;
+    height: 290px;
+}
+
+.about-div-1 button {
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.about-div-2 {
+    position: relative;
+}
+
+.about-div-2-img-2 {
+    position: absolute;
+    top: 90px;
+    right: 110px;
+}
+
+.div-images {
+    position: relative;
+}
+
+.div-images img {
+    width: 300px;
+    height: 300px;
+}
+
+.div-2-img-2 {
+    position: absolute;
+    top: 98px;
+    left: 249px
+}
+
+.Achievement-section {
+    background: url("/assets/images/Rectangle\ 532\ \(1\).png");
+    margin-top: 80px;
+
+}
+
+.Achievement-section .main-cards {
+    display: flex;
+
+}
+
+.Achievement-section .container {
+    text-align: center;
+}
+
+.main-cards-div-1 {
+    display: flex;
+    width: 20%;
+    height: 110px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.main-cards-div-1 div {
+    /* margin-right: 20px; */
+    margin-left: -25px;
+    margin-top: 10px;
+}
+
+.main-cards-div-1 div strong {
+    font-size: larger;
+}
+
+.main-cards-div-1 div p {
+    width: 140px;
+    margin-top: 7px;
+}
+
+.main-cards-div-1 img {
+    margin-top: 0;
+    width: 150px;
+    height: 150px;
+}
+
+.Achievement-section .main-cards {
+    display: block;
+
+
+}
+
+.main-cards-div-1 {
+    display: flex;
+    width: 30%;
+    height: 110px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
+
+@media screen and (max-width:769px) {
+
+    .main-cards {
+        display: block;
+    }
+
+    .main-cards-div-1 {
+        width: 100%;
+    }
+
+    .div-images img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* .Achievement-section{
+        margin-top: 50px;
+    }
+
+    .div-images img{
+        width: 300px;
+    }
+    .div-3{
+        margin-top: 100px;
+    }  */
+}
+
+
+/* <!-- abroad addmission section css  -->  */
+
+.abroad-div-1 h1 {
+    border: 1px solid grey;
+    width: fit-content;
+    padding: 10px;
+    background-color: white;
+}
+
+.abroad-div-1 h1 span {
+    color: blue;
+}
+
+.abroad-div-2 {
+    position: relative;
+}
+
+.abroad-div-2 img {
+    width: 270px;
+
+}
+
+.abroad-img-2 {
+    position: absolute;
+    top: 85px;
+    right: 164px;
+}
+
+/* <!-- abroad addmission section css end -->  */
+
+
+/* english speaking css   */
+.english-div-2 button {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+}
+
+/* english speaking css end  */
+
+
+/* study and job section css  */
+.job-section {
+    background: #F8F8F8;
+
+}
+
+.job-div-1 img {
+    width: 250px;
+}
+
+.job-div-1 {
+    position: relative;
+}
+
+.job-img-2 {
+    position: absolute;
+    left: 210px;
+    top: 84px;
+}
+
+.job-div-2 button {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+}
+
+/* study and job section css end  */
+
+
+/* visa process section css */
+
+
+.visa-section {
+    background-image: url(/assets/images/global\ infotech\ image.jpg);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.visa-div-1 .circles div {
+    /* background-color: purple; */
+    border-radius: 50%;
+    width: fit-content;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 30px;
+    background: linear-gradient(0deg, #B5BEFF -0.08%, #A0A4FF 18.94%, #9394FF 35.95%, #8F8FFF 48.96%, #8A8AFF 61.97%, #7C7CFF 75.98%, #6666FF 91.99%, #5757FF 100%);
+    /* background: linear-gradient(90deg, #FFECDE 20%, #F7E0CE 38%, #F3D9C4 58%, #F2D7C1 84%); */
+
+}
+
+.visa-div-1 {
+    display: flex;
+}
+
+.visa-div-1 button {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+/* visa section  css end  */
+/* <div class="col-lg-7 first-div mt-5">
+<h1> <img src="assets/images/Icon Container.png" alt="" width="40px" height="40px">
+    <span>Unlock</span>
+    Your Success Journey
+</h1>
+<h2>Exploring Globel Info Tech</h2>
+<p>Globel InfoTech is a revolutionary application platform designed for Student Service
+    Partners
+    providing international education support. It enables partners to create multiple
+    applications and oversee the admission journey for their students in the chosen study
+    abroad
+    destination. </p>
+<button>Get Free Consulation </button> */
