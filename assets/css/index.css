@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+
+}
+
+@media screen and (max-width:525px) {
+    .slide-2-div-2 {
+        width: 20%;
+    }
 }
 
 .slide-div-1 h1 span {
@@ -13,6 +24,7 @@
     background-color: white;
     width: fit-content;
     padding: 10px;
+    font-size: 32px;
 }
 
 .slide-div-1 button {
@@ -34,32 +46,28 @@
 
 .slide-div-2 {
     border: 2px solid blue;
+    position: sticky;
     /* width: fit-content; */
-    width: 30%;
+    width: 25%;
     height: 400px;
     border-radius: 50%;
-
     /* position: relative; */
 }
 
 .slide-1,
 .slide-2,
 .slide-3 {
-    height: 500px;
+    /* height: 500px; */
     background-color: lightgrey;
 }
 
-.slide-2-div-2 .slide-2-div-2-img-1 {
-    height: 200px;
-}
+
 
 .slide-div-2 img {
     width: 360px;
     background-color: blue;
     border-radius: 50%;
-    position: absolute;
-    right: 365px;
-    top: 58px;
+    position: sticky;
 }
 
 @media screen and (max-width:950px) {
@@ -83,16 +91,6 @@
 
 .slide-div-3 img {
     width: 300px;
-}
-
-.slide-div-3 {
-    position: relative;
-}
-
-.slide-div-3 .img-2 {
-    position: absolute;
-    right: -60px;
-    top: 99px;
 }
 
 /* slide end  */
@@ -164,13 +162,13 @@
 
 .step-section .class-1 h2 {
     transform: rotate(270deg);
-    margin-top: 30px;
+    margin-top: 65px;
     background-color: #000;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 5px;
     font-size: x-large;
-    width: 153px;
+    width: 168px;
 }
 
 
@@ -207,6 +205,7 @@
     background-color: white;
     border-radius: 10%;
     border: none;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width:1000px) {
@@ -225,27 +224,61 @@
         margin-left: 50px;
     }
 
-    .course-section img {
-        width: 100px;
-    }
 
-    .course-div-1 img {
-        width: 100px;
+
+
+    .step-section .class-1 h2 {
+        transform: rotate(0deg);
+        margin: auto;
+        margin-bottom: 20px;
     }
 }
 
 /* global-infotech-section css */
+@media screen and (max-width:891px) {
+    .card-1 {
+        flex-direction: column;
 
+    }
+
+    .card-1 .card {
+        margin-top: 20px;
+
+    }
+
+    .last-div {
+
+        padding: 10px;
+        margin: 15px;
+        width: 100%;
+
+    }
+
+}
+
+.card-1 {
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row; */
+}
+
+.card-1 .card {
+    background: #F8F8F8;
+    padding: 10px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
 
 .card-section-1 {
     display: flex;
 
 }
 
-.card-section-1 .cards {
-    background: #FBFBFB;
-    margin-left: 20px;
-    margin-top: 30px;
+.container .cards {
+    /* background: #FBFBFB; */
+    /* margin-left: 20px; */
+    /* margin-top: 30px; */
 }
 
 .global-div-1 {
@@ -256,41 +289,14 @@
     margin-top: 10rem;
 }
 
-.last-div {
-    background: #FBFBFB;
-    margin-top: 50px;
-    margin: auto;
-    width: fit-content;
-    padding: 10px;
-    /* text-align: center; */
-}
+
 
 /* course section  */
-@media screen and (max-width: 700px) {
-    .course-section img {
-        width: 200px;
-    }
-}
+
+@media screen and (max-width:990px) {}
 
 .course-section {
     background: #F8F8F8;
-    height: 600px;
-}
-
-.course-div-1 {
-    position: relative;
-
-}
-
-.course-section img {
-    width: 300px;
-}
-
-.course-div-1 .img-2 {
-    position: absolute;
-    left: 245px;
-    top: 110px;
-
 }
 
 .course-section .course-div-2 button {
@@ -305,10 +311,9 @@
     color: white;
 }
 
-.ankers {
-    height: 200px;
-    width: 100px;
-    background-color: aqua;
+.slick-slide img {
+    display: block;
+    width: 100%;
 }
 
 .items {
@@ -334,7 +339,7 @@
 }
 
 .feedback-section {
-    margin-top: 40px;
+    margin-top: 5rem;
 }
 
 .feedback-p h4 {
@@ -360,9 +365,9 @@
 }
 
 /* contact section  */
-
-.contact-section {
+contact-img-div .contact-section {
     background-image: url(/assets/images/Group\ 1700.png);
+    background-repeat: no-repeat;
 }
 
 .form1,
@@ -419,36 +424,19 @@ textarea {
     color: white;
 }
 
-.contact-section-1 {
+.contact-img-div {
     position: relative;
 }
 
 .contact-img-2 {
     position: relative;
-    top: 89px;
-    right: 56px;
+    top: -195px;
+    left: 245px;
 }
 
 /* Ceo section   */
 .Ceo-div-1 h3 {
     color: blue;
-}
-
-.Ceo-div-2 {
-    position: relative;
-}
-
-.Ceo-div-2 .Ceo-img-1 {
-    width: 500px;
-    height: 380px;
-}
-
-.Ceo-div-2 .Ceo-img-2 {
-    width: 400px;
-    height: 300px;
-    position: absolute;
-    right: 150px;
-    top: 37px;
 }
 
 /* question section  */
@@ -475,8 +463,8 @@ textarea {
     border-bottom: 1px solid grey;
 
 }
-.questions-div-1{
-    height: 300px;
+
+.questions-div-1 {
     background-color: white;
 }
 
@@ -491,14 +479,16 @@ textarea {
 }
 
 /* boot css  */
-.bootstrap-div-1{
+.bootstrap-div-1 {
     background-color: white;
     border: 1px solid grey;
     padding: 20px;
 }
-#collapseExample{
+
+#collapseExample {
     background-color: white;
 }
+
 .first-btn {
     background-color: white;
 }
@@ -688,15 +678,8 @@ textarea {
     padding: 10px;
 }
 
-.our-2 {
-    position: relative;
-}
-
-.our-2 .img-2 {
-    position: sticky;
-    position: absolute;
-    top: 128px;
-    right: -10px;
+.partnership-div-2 img {
+    width: 100%;
 }
 
 .last-div-1 {
@@ -759,13 +742,19 @@ textarea {
 }
 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:992px) {
     .partnership-1 {
         display: block;
     }
 
+    .partnership-section .partnership-1 div {
+        margin-left: 0;
+        background: #FBFBFB;
+        margin-top: 30px;
+    }
+
     .last-div-1 {
-        width: 270px;
+        width: 100%;
     }
 
     .our-2 img {
@@ -787,26 +776,12 @@ textarea {
     max-width: 600px;
 }
 
-.contact-us-main-div-2 {
-    position: relative;
-}
-
-.contact-us-main-div-2-img-2 {
-    position: absolute;
-    top: 98px;
-    right: 109px;
-
-}
-
 .contact-us-section {
     border-top: 1px solid grey;
     margin-top: 12rem;
 }
 
-.contact-us-main img {
-    width: 300px;
-    height: 300px;
-}
+
 
 .contact-us-social div {
     background-color: #F1F1F3;
@@ -845,10 +820,7 @@ textarea {
 
 
 /* about us css  */
-.about-div-2 img {
-    width: 300px;
-    height: 290px;
-}
+
 
 .about-div-1 button {
     text-decoration: none;
@@ -857,38 +829,14 @@ textarea {
     border-radius: 10px;
 }
 
-.about-div-2 {
-    position: relative;
-}
-
-.about-div-2-img-2 {
-    position: absolute;
-    top: 90px;
-    right: 110px;
-}
-
-.div-images {
-    position: relative;
-}
-
-.div-images img {
-    width: 300px;
-    height: 300px;
-}
-
-.div-2-img-2 {
-    position: absolute;
-    top: 98px;
-    left: 249px
-}
-
+/* .Achievement-section  */
 .Achievement-section {
     background: url("/assets/images/Rectangle\ 532\ \(1\).png");
     margin-top: 80px;
 
 }
 
-.Achievement-section .main-cards {
+.main-cards {
     display: flex;
 
 }
@@ -950,7 +898,7 @@ textarea {
 
 
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:969px) {
 
     .main-cards {
         display: block;
@@ -958,12 +906,12 @@ textarea {
 
     .main-cards-div-1 {
         width: 100%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 
-    .div-images img {
-        width: 200px;
-        height: 200px;
-    }
+
 
     /* .Achievement-section{
         margin-top: 50px;
@@ -991,20 +939,14 @@ textarea {
     color: blue;
 }
 
-.abroad-div-2 {
-    position: relative;
-}
+
 
 .abroad-div-2 img {
-    width: 270px;
+    width: 100%;
 
 }
 
-.abroad-img-2 {
-    position: absolute;
-    top: 85px;
-    right: 164px;
-}
+
 
 /* <!-- abroad addmission section css end -->  */
 
@@ -1026,18 +968,10 @@ textarea {
 }
 
 .job-div-1 img {
-    width: 250px;
+    width: 100%;
 }
 
-.job-div-1 {
-    position: relative;
-}
 
-.job-img-2 {
-    position: absolute;
-    left: 210px;
-    top: 84px;
-}
 
 .job-div-2 button {
     text-decoration: none;
@@ -1053,7 +987,6 @@ textarea {
 
 .visa-section {
     background-image: url(/assets/images/global\ infotech\ image.jpg);
-    height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -1079,6 +1012,48 @@ textarea {
     padding: 10px;
     background-color: white;
     border: none;
+}
+
+.query-1 {
+    display: flex;
+    background-color: #000;
+    margin-bottom: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.query-div-1 {
+    border-radius: 50%;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.query-div-1 img {
+    width: 64px;
+}
+
+.query-div-2 {
+    margin-left: 20px;
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+    padding-top: 50px;
+    /* Optional: Adds spacing from the top */
+}
+
+/* Style for the box */
+.box {
+    display: inline-block;
+    /* Ensures the box is centered */
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    padding: 20px;
+    /* Optional: Adds some padding inside the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* visa section  css end  */
