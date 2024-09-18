@@ -36,13 +36,6 @@
 
 }
 
-.carousel-control-next-icon {
-    background-color: orange;
-}
-
-.carousel-control-prev-icon {
-    background-color: orange;
-}
 
 .slide-div-2 {
     border: 2px solid blue;
@@ -53,16 +46,7 @@
     border-radius: 50%;
     /* position: relative; */
 }
-
-.slide-1,
-.slide-2,
-.slide-3 {
-    /* height: 500px; */
-    background-color: lightgrey;
-}
-
-
-
+;
 .slide-div-2 img {
     width: 360px;
     background-color: blue;
@@ -246,13 +230,25 @@
 
     }
 
-    .last-div {
-
-        padding: 10px;
-        margin: 15px;
-        width: 100%;
-
+    .last-div-card {
+        text-align: start;
+        padding-top: 20px;
+        /* Optional: Adds spacing from the top */
     }
+
+    .box {
+        display: inline-block;
+        border-radius: 10px;
+        text-align: start;
+        width: 100%;
+        height: 184px;
+        margin-left: 5px;
+        background-color: #F8F8F8;
+        border: 1px solid #ccc;
+        padding: 20px;
+    }
+
+
 
 }
 
@@ -270,15 +266,39 @@
     margin-left: 20px;
 }
 
+.card-1 .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
 .card-section-1 {
     display: flex;
 
 }
 
-.container .cards {
-    /* background: #FBFBFB; */
-    /* margin-left: 20px; */
-    /* margin-top: 30px; */
+@media screen and (max-width:890px) {}
+
+/* Container styles */
+.last-div-card {
+    text-align: center;
+    padding-top: 50px;
+    /* Optional: Adds spacing from the top */
+}
+
+/* Style for the box */
+.box {
+    display: inline-block;
+    border-radius: 10px;
+    text-align: start;
+    width: 38%;
+    height: 184px;
+    margin-left: 21px;
+    background-color: #F8F8F8;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
 }
 
 .global-div-1 {
@@ -830,15 +850,16 @@ textarea {
 }
 
 /* .Achievement-section  */
+
 .Achievement-section {
     background: url("/assets/images/Rectangle\ 532\ \(1\).png");
     margin-top: 80px;
 
 }
 
-.main-cards {
-    display: flex;
-
+.main-cards{
+    display:flex;
+    
 }
 
 .Achievement-section .container {
@@ -878,11 +899,7 @@ textarea {
     height: 150px;
 }
 
-.Achievement-section .main-cards {
-    display: block;
 
-
-}
 
 .main-cards-div-1 {
     display: flex;
@@ -910,23 +927,33 @@ textarea {
         margin-top: 20px;
         margin-bottom: 40px;
     }
+}
 
+@media screen and (max-width:1200px) {
 
-
-    /* .Achievement-section{
-        margin-top: 50px;
+    .main-cards {
+        display: block;
     }
-
-    .div-images img{
-        width: 300px;
-    }
-    .div-3{
-        margin-top: 100px;
-    }  */
 }
 
 
 /* <!-- abroad addmission section css  -->  */
+
+@media screen and (max-width: 460px) {
+    .abroad-div-1 h1 {
+        font-size: 20px;
+    }
+
+    .visa-div-1 button {
+        font-size: 8px;
+    }
+
+    .visa-div-1 h2 {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+}
 
 .abroad-div-1 h1 {
     border: 1px solid grey;
@@ -943,9 +970,38 @@ textarea {
 
 .abroad-div-2 img {
     width: 100%;
+}
+
+/* visa section css  */
+
+.visa-section {
+    background-image: url(/assets/images/global\ infotech\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.visa-div-1 .circles div {
+    /* background-color: purple; */
+    border-radius: 50%;
+    width: fit-content;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 30px;
+    background: linear-gradient(0deg, #B5BEFF -0.08%, #A0A4FF 18.94%, #9394FF 35.95%, #8F8FFF 48.96%, #8A8AFF 61.97%, #7C7CFF 75.98%, #6666FF 91.99%, #5757FF 100%);
+    /* background: linear-gradient(90deg, #FFECDE 20%, #F7E0CE 38%, #F3D9C4 58%, #F2D7C1 84%); */
 
 }
 
+.visa-div-1 {
+    display: flex;
+}
+
+.visa-div-1 button {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
 
 
 /* <!-- abroad addmission section css end -->  */
@@ -982,37 +1038,10 @@ textarea {
 /* study and job section css end  */
 
 
-/* visa process section css */
 
 
-.visa-section {
-    background-image: url(/assets/images/global\ infotech\ image.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
-.visa-div-1 .circles div {
-    /* background-color: purple; */
-    border-radius: 50%;
-    width: fit-content;
-    margin-left: 30px;
-    margin-top: 30px;
-    padding: 30px;
-    background: linear-gradient(0deg, #B5BEFF -0.08%, #A0A4FF 18.94%, #9394FF 35.95%, #8F8FFF 48.96%, #8A8AFF 61.97%, #7C7CFF 75.98%, #6666FF 91.99%, #5757FF 100%);
-    /* background: linear-gradient(90deg, #FFECDE 20%, #F7E0CE 38%, #F3D9C4 58%, #F2D7C1 84%); */
 
-}
-
-.visa-div-1 {
-    display: flex;
-}
-
-.visa-div-1 button {
-    text-decoration: none;
-    padding: 10px;
-    background-color: white;
-    border: none;
-}
 
 .query-1 {
     display: flex;
@@ -1020,10 +1049,12 @@ textarea {
     margin-bottom: 20px;
     color: white;
     padding: 10px;
+    border-radius: 50px;
 }
 
 .query-div-1 {
     border-radius: 50%;
+    height: 96px;
     background-color: bisque;
     padding: 10px;
 }
@@ -1035,26 +1066,20 @@ textarea {
 .query-div-2 {
     margin-left: 20px;
 }
+@media screen and (max-width: 474px){
 
-/* Container styles */
-.container {
-    text-align: center;
-    padding-top: 50px;
-    /* Optional: Adds spacing from the top */
+    .query-1{
+        display: block;
+        border-radius: 21px;
+    }
+    .query-div-1 {
+        margin: auto;
+        height: 96px;
+        width: 89px;
+       
+    
 }
 
-/* Style for the box */
-.box {
-    display: inline-block;
-    /* Ensures the box is centered */
-    width: 300px;
-    height: 200px;
-    background-color: lightblue;
-    border: 1px solid #ccc;
-    padding: 20px;
-    /* Optional: Adds some padding inside the box */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
 
 /* visa section  css end  */
 /* <div class="col-lg-7 first-div mt-5">
