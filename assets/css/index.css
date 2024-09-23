@@ -9,9 +9,18 @@
 
 }
 
+h2 {
+    font-weight: 700;
+}
+
 @media screen and (max-width:525px) {
     .slide-2-div-2 {
         width: 20%;
+    }
+
+    .slide-div-1 h1 {
+
+        background-color: #B5BEFF;
     }
 }
 
@@ -24,18 +33,33 @@
     background-color: white;
     width: fit-content;
     padding: 10px;
-    font-size: 32px;
+    font-size: 22px;
 }
 
 .slide-div-1 button {
     text-decoration: none;
     padding: 10px;
-    background-color: white;
+    background: #FBFBFB;
     border: none;
     border-radius: 10px;
 
 }
 
+.contact-link a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.slide-1,
+.slide-2,
+.slide-3 {
+    background-image: url(/assets/images/Group\ 1698\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .slide-div-2 {
     border: 2px solid blue;
@@ -46,7 +70,9 @@
     border-radius: 50%;
     /* position: relative; */
 }
-;
+
+
+
 .slide-div-2 img {
     width: 360px;
     background-color: blue;
@@ -105,7 +131,7 @@
     padding: 10px;
     color: black;
     background-color: white;
-    border: 1px soloid grey;
+    border: 1px solid grey;
 
 }
 
@@ -138,10 +164,10 @@
     left: 50px;
 }
 
-/* step section css */
-.step-section {
+/*  section css */
 
-    /* height: 300px; */
+.step-section .img-1 {
+    margin-right: 20px;
 }
 
 .step-section .class-1 h2 {
@@ -225,10 +251,7 @@
 
     }
 
-    .card-1 .card {
-        margin-top: 20px;
 
-    }
 
     .last-div-card {
         text-align: start;
@@ -263,7 +286,8 @@
     padding: 10px;
     width: 100%;
     margin-top: 30px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    margin-left: 40px;
 }
 
 .card-1 .card:hover {
@@ -275,7 +299,6 @@
 
 }
 
-@media screen and (max-width:890px) {}
 
 /* Container styles */
 .last-div-card {
@@ -313,7 +336,6 @@
 
 /* course section  */
 
-@media screen and (max-width:990px) {}
 
 .course-section {
     background: #F8F8F8;
@@ -385,7 +407,16 @@
 }
 
 /* contact section  */
-contact-img-div .contact-section {
+.contact-section-1 img {
+    margin-bottom: 30px;
+}
+
+.contact-section {
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-img-div .contact-section {
     background-image: url(/assets/images/Group\ 1700.png);
     background-repeat: no-repeat;
 }
@@ -394,7 +425,8 @@ contact-img-div .contact-section {
 .form2,
 .form3 {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 20px;
 }
 
 .form-container {
@@ -460,19 +492,6 @@ textarea {
 }
 
 /* question section  */
-.abc {
-    background-color: darkblue;
-}
-
-.xyz {
-    background-color: cadetblue;
-    display: block;
-}
-
-.questions-section {
-    background: #F8F8F8;
-
-}
 
 .questions-div-1 .javascript-div {
     /* background-color: white; */
@@ -493,12 +512,16 @@ textarea {
     padding: 20px;
 }
 
-.javascript-div-2 {
-    /* opacity: 0; */
-    /* display: none; */
-}
+
 
 /* boot css  */
+
+
+.questions-div-1 {
+    margin-bottom: 30px;
+
+}
+
 .bootstrap-div-1 {
     background-color: white;
     border: 1px solid grey;
@@ -554,6 +577,7 @@ textarea {
 }
 
 .footer-end {
+
     text-align: center;
     margin-top: 10px;
 }
@@ -605,7 +629,6 @@ textarea {
 }
 
 .hiring-div-1 div {
-    border: 1px solid grey;
     border-radius: 24px;
     height: 90px;
     margin-left: 20px;
@@ -630,13 +653,24 @@ textarea {
 }
 
 /* join us  */
+.join-section {
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
 .join-div-1 {
     border-right: 1px solid grey;
 }
 
+.message-button {
+    text-align: center;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
 .join-div-1 img {
-    width: 400px;
-    height: 250px;
+    width: 70%;
+    /* height: 300px; */
 }
 
 
@@ -659,6 +693,17 @@ textarea {
         width: 200px;
         margin-top: 20px;
     }
+
+    .hiring-div-1 .div-2 p {
+        margin-top: 14px;
+    }
+
+    .card-1 .card {
+        margin-top: 20px;
+        /* margin-left: 1px; */
+        margin-left: 0px;
+
+    }
 }
 
 @media screen and (max-width: 540px) {
@@ -677,6 +722,10 @@ textarea {
     padding: 10px;
     background-color: whitesmoke;
     border-radius: 15px;
+}
+
+.our-1 {
+    line-height: 1.8rem;
 }
 
 .our-1 h1 span {
@@ -699,7 +748,7 @@ textarea {
 }
 
 .partnership-div-2 img {
-    width: 100%;
+    width: 90%;
 }
 
 .last-div-1 {
@@ -741,7 +790,9 @@ textarea {
     margin-left: 9px;
 }
 
-.company-div img {}
+.abroad-div-1 h1 {
+    width: fit-content;
+}
 
 .company-div {
     background: #E9F0F4;
@@ -767,6 +818,8 @@ textarea {
         display: block;
     }
 
+
+
     .partnership-section .partnership-1 div {
         margin-left: 0;
         background: #FBFBFB;
@@ -781,10 +834,74 @@ textarea {
         width: 300px;
     }
 
+    .step-1,
+    .step-2,
+    .step-3,
+    .step-4,
+    .step-5 {
+        position: relative;
+
+    }
+
+    .step-1 .img-1,
+    .step-2 .img-1,
+    .step-3 .img-1,
+    .step-4 .img-1,
+    .step-5 .img-1 {
+        position: absolute;
+        rotate: 90deg;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 1%);
+        margin-top: 30px;
+        /* margin-bottom: 30px; */
+    }
+
+    .step-1 .img-2,
+    .step-2 .img-2,
+    .step-3 .img-2,
+    .step-4 .img-2,
+    .step-5 .img-2 {
+        margin-top: 20px;
+    }
+}
+
+.step-1 .p-1 {
+    color: #4DB2B6;
+
+}
+
+.step-2 .p-1 {
+    color: #FA444F;
+
+}
+
+.step-3 .p-1 {
+    color: #F2A31B;
+
+}
+
+.step-4 .p-1 {
+    color: #2D5CCE;
+
+}
+
+.step-5 .p-1 {
+    color: #7743A6;
+
+}
+
+.box {
+    border-radius: 10px;
+    height: 100%;
+    margin-left: 40px;
+    width: 34%;
+    height: 194px;
 
 }
 
 
+}
 
 /* contact us section  css */
 .contact-us-main h2 {
@@ -857,9 +974,9 @@ textarea {
 
 }
 
-.main-cards{
-    display:flex;
-    
+.main-cards {
+    display: flex;
+
 }
 
 .Achievement-section .container {
@@ -927,6 +1044,7 @@ textarea {
         margin-top: 20px;
         margin-bottom: 40px;
     }
+
 }
 
 @media screen and (max-width:1200px) {
@@ -952,7 +1070,12 @@ textarea {
         font-size: 17px;
         font-weight: 600;
     }
-    
+
+    .first-collapse h3 {
+        font-size: 20px;
+    }
+
+
 }
 
 .abroad-div-1 h1 {
@@ -974,6 +1097,7 @@ textarea {
 
 /* visa section css  */
 
+
 .visa-section {
     background-image: url(/assets/images/global\ infotech\ image.jpg);
     background-size: cover;
@@ -986,7 +1110,7 @@ textarea {
     width: fit-content;
     margin-left: 30px;
     margin-top: 30px;
-    padding: 30px;
+    padding: 20px;
     background: linear-gradient(0deg, #B5BEFF -0.08%, #A0A4FF 18.94%, #9394FF 35.95%, #8F8FFF 48.96%, #8A8AFF 61.97%, #7C7CFF 75.98%, #6666FF 91.99%, #5757FF 100%);
     /* background: linear-gradient(90deg, #FFECDE 20%, #F7E0CE 38%, #F3D9C4 58%, #F2D7C1 84%); */
 
@@ -1045,15 +1169,19 @@ textarea {
 
 .query-1 {
     display: flex;
-    background-color: #000;
     margin-bottom: 20px;
     color: white;
-    padding: 10px;
-    border-radius: 50px;
+    padding: 11px;
+    border-radius: 30px;
+}
+
+.query-div-2 h6 {
+    margin-top: 20px;
 }
 
 .query-div-1 {
     border-radius: 50%;
+    position: relative;
     height: 96px;
     background-color: bisque;
     padding: 10px;
@@ -1066,32 +1194,65 @@ textarea {
 .query-div-2 {
     margin-left: 20px;
 }
-@media screen and (max-width: 474px){
 
-    .query-1{
+@media screen and (max-width: 474px) {
+
+    .query-1 {
         display: block;
         border-radius: 21px;
     }
+
     .query-div-1 {
         margin: auto;
         height: 96px;
         width: 89px;
-       
-    
+
+
+    }
+
+    .visa-div-1 .circles div {
+        padding: 10px;
+    }
+
+    .process-div p {
+        width: 200px;
+    }
 }
 
+/* try  */
+.query-1::before {
 
-/* visa section  css end  */
-/* <div class="col-lg-7 first-div mt-5">
-<h1> <img src="assets/images/Icon Container.png" alt="" width="40px" height="40px">
-    <span>Unlock</span>
-    Your Success Journey
-</h1>
-<h2>Exploring Globel Info Tech</h2>
-<p>Globel InfoTech is a revolutionary application platform designed for Student Service
-    Partners
-    providing international education support. It enables partners to create multiple
-    applications and oversee the admission journey for their students in the chosen study
-    abroad
-    destination. </p>
-<button>Get Free Consulation </button> */
+    content: "";
+    background-color: black;
+    color: red;
+    width: 20%;
+    padding: 1px;
+    height: 0px;
+    border-radius: 0%;
+    margin-top: 40px;
+    margin-right: 20px;
+
+}
+
+.query-div-1::before {
+    border-radius: 50%;
+    content: "";
+    background-color: blue;
+    width: 10%;
+    position: absolute;
+    right: 92px;
+    padding: 7px;
+    margin-top: 23px;
+}
+
+.visa-div-2::before {
+    content: "";
+    position: absolute;
+    margin-top: 0px;
+    background-color: black;
+    font-weight: bold;
+    width: 4px;
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 94%;
+}
