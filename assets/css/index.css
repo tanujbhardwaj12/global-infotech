@@ -12,6 +12,12 @@
 h2 {
     font-weight: 700;
 }
+p{
+    font-size: 19px;
+}
+button{
+    font-weight: 500;
+}
 
 @media screen and (max-width:525px) {
     .slide-2-div-2 {
@@ -39,7 +45,7 @@ h2 {
 .slide-div-1 button {
     text-decoration: none;
     padding: 10px;
-    background: #FBFBFB;
+    background: white;
     border: none;
     border-radius: 10px;
 
@@ -387,7 +393,7 @@ h2 {
 .feedback-p h4 {
     border: none;
     background: #FCFCFD;
-    padding: 5px;
+    padding:20px;
     width: fit-content;
     margin: auto;
     margin-bottom: 20px;
@@ -853,7 +859,7 @@ textarea {
         top: 50%;
         left: 50%;
         transform: translate(-50%, 1%);
-        margin-top: 30px;
+        margin-top: 43px;
         /* margin-bottom: 30px; */
     }
 
@@ -900,8 +906,6 @@ textarea {
 
 }
 
-
-}
 
 /* contact us section  css */
 .contact-us-main h2 {
@@ -1172,7 +1176,9 @@ textarea {
     margin-bottom: 20px;
     color: white;
     padding: 11px;
-    border-radius: 30px;
+    border-radius: 66px;
+    position: relative;
+background: #000;
 }
 
 .query-div-2 h6 {
@@ -1194,6 +1200,10 @@ textarea {
 .query-div-2 {
     margin-left: 20px;
 }
+.visa-div-2{
+    position: relative;
+}
+
 
 @media screen and (max-width: 474px) {
 
@@ -1220,39 +1230,59 @@ textarea {
 }
 
 /* try  */
-.query-1::before {
 
-    content: "";
-    background-color: black;
-    color: red;
-    width: 20%;
-    padding: 1px;
-    height: 0px;
-    border-radius: 0%;
-    margin-top: 40px;
-    margin-right: 20px;
 
-}
 
-.query-div-1::before {
-    border-radius: 50%;
+
+.query-1::before{
     content: "";
     background-color: blue;
-    width: 10%;
+    width: 10px;
+    height: 10px;
     position: absolute;
-    right: 92px;
-    padding: 7px;
-    margin-top: 23px;
+    left: -30px;
+    top: 50%;
+    border-radius: 50%;
+}
+.query-1::after{
+    content: "";
+    background-color: black;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    left: -60px;
+    top: 53%;
 }
 
-.visa-div-2::before {
+.visa-div-2::before{
     content: "";
-    position: absolute;
-    margin-top: 0px;
     background-color: black;
-    font-weight: bold;
-    width: 4px;
-    margin-top: 50px;
-    margin-left: 10px;
-    height: 94%;
+    position: absolute;
+    width: 2px;
+    margin-top: 60px;
+    left: -50px;
+    height: 84%;
+}
+.process-div button{
+    position: relative;
+}
+.process-div button::before{
+  
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    background-color: blue;
+    left: 279px;
+    width: 10px;
+    top: 16px;
+    height: 10px;
+}
+.process-div button::after{
+    position: absolute;
+    content: "";
+    background-color: black;
+    width: 106px;
+    top: 20px;
+    left: 285px;
+    height: 2px;
 }
