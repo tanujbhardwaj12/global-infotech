@@ -18,7 +18,6 @@ p{
 button{
     font-weight: 500;
 }
-
 @media screen and (max-width:525px) {
     .slide-2-div-2 {
         width: 20%;
@@ -239,8 +238,7 @@ button{
         text-align: start;
         margin-left: 50px;
     }
-
-
+   
 
 
     .step-section .class-1 h2 {
@@ -498,9 +496,11 @@ textarea {
 }
 
 /* question section  */
+.question{
+    background: #F8F8F8;
 
+}
 .questions-div-1 .javascript-div {
-    /* background-color: white; */
     padding: 10px;
 }
 
@@ -509,9 +509,7 @@ textarea {
 
 }
 
-.questions-div-1 {
-    background-color: white;
-}
+
 
 .javascript-div-1 i {
     background: #ECF0FF;
@@ -562,6 +560,10 @@ textarea {
 }
 
 /* footer section  */
+.footer{
+    background: #F8F8F8;
+
+}
 .footer-section {
     border-bottom: 1px solid grey;
     border-top: 1px solid grey;
@@ -689,7 +691,33 @@ textarea {
         /* justify-content: center; */
 
     }
-
+    .query-1::before{
+       opacity: 0;
+    }
+    .query-1::after{
+        opacity: 0;
+    }
+    .visa-div-2::before{
+        content: "";
+        background-color: black;
+        position: absolute;
+        width: 2px;
+        margin-top: 60px;
+        left: -50px;
+        height: 84%;
+    }
+  
+    .process-div button::before{
+      
+        opacity: 0;
+    }
+    .visa-div-2::after{
+      opacity: 0;
+    }
+    .visa-div-2::before{
+        opacity: 0;
+    }
+    
     .hiring-section .hiring .hiring-div-1 {
         justify-content: center;
 
@@ -723,6 +751,9 @@ textarea {
 }
 
 /* partnership-section  */
+.abroad-heading{
+    border-radius: 10px;
+}
 .our-1 h1 {
     width: fit-content;
     padding: 10px;
@@ -967,7 +998,8 @@ textarea {
     text-decoration: none;
     padding: 10px;
     border: none;
-    border-radius: 10px;
+    background-color: white;
+    border-radius: 5px;
 }
 
 /* .Achievement-section  */
@@ -1146,7 +1178,7 @@ textarea {
 
 
 /* study and job section css  */
-.job-section {
+.job{
     background: #F8F8F8;
 
 }
@@ -1277,12 +1309,13 @@ background: #000;
     top: 16px;
     height: 10px;
 }
-.process-div button::after{
+.visa-div-2::after{
     position: absolute;
     content: "";
     background-color: black;
-    width: 106px;
-    top: 20px;
-    left: 285px;
+    width: 195px;
+    top: 325px;
+    left: -244px;
     height: 2px;
 }
+
