@@ -61,7 +61,7 @@ button{
 .slide-1,
 .slide-2,
 .slide-3 {
-    background-image: url(/assets/images/Group\ 1698\ \(2\).png);
+    background-image: url('../images/Group\ 1698\ \(2\).png');
     background-repeat: no-repeat;
     background-size: cover;
 }
