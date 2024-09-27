@@ -8,9 +8,9 @@
     font-family: "Be Vietnam Pro", sans-serif;
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     display: none;
-}
+} */
 
 h2 {
     font-weight: 700;
@@ -1413,4 +1413,105 @@ textarea {
 
 .hiring-1 h2 {
     padding: 20px;
+}
+
+@media (max-width:1400px) {
+    .visa-div-2::after {
+        position: absolute;
+        content: "";
+        background-color: black;
+        width: 154px;
+        top: 325px;
+        left: -204px;
+        height: 2px;
+    }
+
+    .process-div button::before {
+
+        position: absolute;
+        content: "";
+        border-radius: 50%;
+        background-color: blue;
+        left: 230px;
+        width: 10px;
+        top: 17px;
+        height: 10px;
+    }
+}
+
+@media (max-width:1200px) {
+    .visa-div-2::after {
+        position: absolute;
+        content: "";
+        background-color: black;
+        width: 91px;
+        top: 373px;
+        left: -138px;
+        height: 2px;
+    }
+
+    .process-div button::before {
+
+        position: absolute;
+        content: "";
+        border-radius: 50%;
+        background-color: blue;
+        left: 205px;
+        width: 10px;
+        top: 19px;
+        height: 10px;
+    }
+}
+
+@media (max-width:1000px) {
+    .visa-section {
+        display: flex;
+        padding: 20px;
+    }
+
+    .visa-section .container .row {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .visa-div-2 {
+        width: fit-content;
+    }
+
+    .visa-div-2 .query-1 {
+        width: 80vw;
+    }
+
+}
+
+@media (max-width:650px) {
+    .visa-section .container .row {
+        display: flex;
+        align-items: end;
+        justify-content: flex-end;
+    }
+
+    .visa-div-2 {
+        width: 80%;
+    }
+
+    .visa-div-2 .query-1 {
+        width: 95%;
+    }
+
+
+}
+
+@media (max-width:474px) {
+    .visa-div-2::before {
+
+        height: 88%;
+    }
+
+    .query-1::before {
+
+        top: 51%;
+
+    }
 }
