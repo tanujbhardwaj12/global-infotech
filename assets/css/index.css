@@ -1170,7 +1170,9 @@ textarea {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.visa-div-1 .circles{
+    margin-right: 10px;
+}
 .visa-div-1 .circles div {
     /* background-color: purple; */
     border-radius: 50%;
@@ -1343,7 +1345,7 @@ textarea {
     content: "";
     border-radius: 50%;
     background-color: blue;
-    left: 279px;
+    left: 315px;
     width: 10px;
     top: 16px;
     height: 10px;
@@ -1432,9 +1434,9 @@ textarea {
         content: "";
         border-radius: 50%;
         background-color: blue;
-        left: 230px;
+        left: 264px;
         width: 10px;
-        top: 17px;
+        top: -6px;
         height: 10px;
     }
 }
@@ -1456,9 +1458,9 @@ textarea {
         content: "";
         border-radius: 50%;
         background-color: blue;
-        left: 205px;
+        left: 240px;
         width: 10px;
-        top: 19px;
+        top: -5px;
         height: 10px;
     }
 }
@@ -1467,6 +1469,7 @@ textarea {
     .visa-section {
         display: flex;
         padding: 20px;
+        margin-top: 10px;
     }
 
     .visa-section .container .row {
